@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TPbanco" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TPbanco" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TPbanco" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Cola.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cola.h" />
+		<Unit filename="Lista.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Lista.h" />
+		<Unit filename="Nodo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Nodo.h" />
+		<Unit filename="Pila.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Pila.h" />
+		<Unit filename="TDABanco.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TDABanco.h" />
+		<Unit filename="TDACajero.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TDACajero.h" />
+		<Unit filename="TDACheques.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TDACheques.h" />
+		<Unit filename="TDADatosCliente.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TDADatosCliente.h" />
+		<Unit filename="TDAFecha.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="TDAFecha.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="TDAInformesBanco.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TDAInformesBanco.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="TDAMenuCajaCuenta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TDAMenuCajaCuenta.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="TDAMenuCajaImpuestos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TDAMenuCajaImpuestos.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="TDAMenuInicioSistema.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TDAMenuInicioSistema.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="TDAOperacionesCajero.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TDAOperacionesCajero.h" />
+		<Unit filename="TDASolicitarTurno.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TDASolicitarTurno.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="util.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
